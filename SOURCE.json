@@ -1,0 +1,461 @@
+{
+  "baseline": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+  "adapter": "src-tauri/src/native_core/extensions/v2_timers.rs",
+  "inputProvenance": {
+    "slug": "timers",
+    "status": "source-inputs-only",
+    "standalone": false,
+    "source_pack_complete_for_research": true,
+    "repository": "almatkai/timers",
+    "repository_exists_at_inventory": false,
+    "repository_visibility": null,
+    "repository_proposed_name": "timers",
+    "publish_allowed": "not-approved; research inputs need integration/license review",
+    "app_base": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+    "app_branch": "fix/beta15-external-rust-extensions",
+    "source_sha256": "be54fa165023603e81d90d53a27d25ba697548d7edf88504d820b0d2fa2ee61a",
+    "source_module": "src-tauri/src/native_core/extensions/v2_timers.rs",
+    "manifest": "manifest.v2.json",
+    "manifest_icon_original_copied": true,
+    "manifest_asset_references": [
+      "alarmClock.wav",
+      "command-icon.png",
+      "dismemberedWoodpecker.wav",
+      "fluteRiff.wav",
+      "levelUp.wav",
+      "pianoChime.wav",
+      "terminator.wav"
+    ],
+    "actual_missing_assets": [],
+    "commands": 19,
+    "runtime_validation": "not-run",
+    "remaining_port_couplings": "Process-global workers and explicit start/shutdown; host store/resource paths, notification/audio processes and hard-coded Tezbar notification identity need standalone integration. Six WAVs resolve under resources/native-timers. Historic Submarine preference is absent upstream; source already falls back to alarmClock.wav; no new missing-asset blocker.",
+    "host_request_routes": [],
+    "sdk_functions": [
+      "copy",
+      "no_view",
+      "read_store",
+      "unchanged",
+      "update_store",
+      "view"
+    ],
+    "license_notices": [
+      "App LICENSE retained exactly (Apache-2.0, existing Almat notice); retain Raycast MIT and original author/contributor metadata; not one license for all third-party assets. Original icons preserved; no trademark grant or independent authorship invented.",
+      "Upstream README credits sound effects to Mixkit. Exact Mixkit license and terms retained. License prohibits redistributing items on their own, in a tool/template, or with source files. WAVs are LOCAL RESEARCH INPUTS ONLY: do not copy these raw WAVs into public/private distributed source repositories without rights/permission review. App resources README\u2019s blanket MIT claim is not reliable for audio. Exact original Mixkit item IDs and original download terms not established."
+    ],
+    "helper_downloads": [],
+    "installed_public_metadata": {
+      "author": "ThatNerd",
+      "contributors": [
+        "GastroGeek",
+        "pernielsentikaer",
+        "lokot0k",
+        "mitchwu",
+        "a-laughlin"
+      ],
+      "license": "MIT",
+      "version": null
+    },
+    "installed_upstream_exact_commit": "unknown",
+    "upstream_snapshot": {
+      "slug": "timers",
+      "repository": "raycast/extensions",
+      "snapshot_commit": "97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+      "installed_exact_upstream_commit": "unknown",
+      "extension_path": "extensions/timers",
+      "errors": []
+    },
+    "existing_repository_upstream": null,
+    "installed_bundle_hash_evidence": [
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/configureMenubarPresets.js",
+        "size": 19137,
+        "sha256": "deaf7e5d2f96a20ce0050403afba6d3d3cd617430cb2e8ad04b15598cbea08dc",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/dismissTimerAlert.js",
+        "size": 4908,
+        "sha256": "377b524a29f3786cc92c67e9e9146d207c066ec1902c5ea48f911d04bc3df90e",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/manageStopwatches.js",
+        "size": 15316,
+        "sha256": "216c3c55f6e519cd09687111610c5d7021caed6826c4af946e7f9c67c236f488",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/manageTimers.js",
+        "size": 31961,
+        "sha256": "fc318d1276d3288961419b86f73463b6a48f8c7b414f05adf2c1fff19029c9fe",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/previewAlertSounds.js",
+        "size": 3209,
+        "sha256": "76059b546357028944a7595ea85a15d389fbcfbbc4be20d2c128640b0c7eb3a8",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/start10MinuteTimer.js",
+        "size": 6133,
+        "sha256": "84c26e5dc124bb6c1930055f9caf095de25437a3e7388775a45d7055e60c9294",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/start15MinuteTimer.js",
+        "size": 6143,
+        "sha256": "05b9c96b78444d7f8ea662cfd2a94814be4083c0173a8ceef68ced7231838cb7",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/start25MinuteTimer.js",
+        "size": 6143,
+        "sha256": "499ff04cace44c79e8ebbfeb836d9fb630f4737052dc5b06d6294f72a50f2fa3",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/start2MinuteTimer.js",
+        "size": 6124,
+        "sha256": "14c43e2dca9288c5d82bb6ef814135fc65f905ab6cc1a299e914c9677fee2227",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/start30MinuteTimer.js",
+        "size": 6133,
+        "sha256": "b92f4ee469d5069acb08966412a52927ba44f57ef5b2b3f689b524a3f1c3b082",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/start45MinuteTimer.js",
+        "size": 6133,
+        "sha256": "29f055fc4d025c9333e7ee11233137433d1c5598580f10efc5454ac4bdd3a484",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/start5MinuteTimer.js",
+        "size": 6124,
+        "sha256": "f7b98077aa59131d0b7333d05b3fb55c5fabbe3972b0627603abba96c103de5d",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/start60MinuteTimer.js",
+        "size": 6130,
+        "sha256": "b0f219f780b838fccf053eda1cfb2d3ad76934707e15c17cc10b927977231407",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/start90MinuteTimer.js",
+        "size": 6133,
+        "sha256": "b1cb6939955b918ae16259fd7f127dcfb3dfb656c4c599d97a508aca600a5045",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/startCustomTimer.js",
+        "size": 12488,
+        "sha256": "3d9c7b813260a21ad53da9ce848b44256cb2a315c7c5f6fbd4039b2ec89acc17",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/startStopwatch.js",
+        "size": 3040,
+        "sha256": "9ed713e5744fe92663f85fc6425237ccdd758c78dab5c54c9c83caab5816d0f2",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/stopRunningTimer.js",
+        "size": 4678,
+        "sha256": "531ea65302bde0c858322423cee218f839842d99e31cd982f8d6bfd9a5393bcc",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/stopwatchMenuBar.js",
+        "size": 10346,
+        "sha256": "f37c28e6bd50c4d16ccab7a199a5999335b9d51353fdfae9aace2401219876f1",
+        "copied": false
+      },
+      {
+        "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/.sc-build/timersMenuBar.js",
+        "size": 20540,
+        "sha256": "4b28fcb70efa53e2344a8e9ad5f7b2d78f36bb8761b1d72850e7c01327e18edd",
+        "copied": false
+      }
+    ],
+    "files": [
+      {
+        "package": "timers",
+        "path": "src-tauri/src/native_core/extensions/v2_timers.rs",
+        "size": 72472,
+        "sha256": "be54fa165023603e81d90d53a27d25ba697548d7edf88504d820b0d2fa2ee61a",
+        "origin": {
+          "type": "app-git",
+          "commit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+          "path": "src-tauri/src/native_core/extensions/v2_timers.rs"
+        }
+      },
+      {
+        "package": "timers",
+        "path": "LICENSE",
+        "size": 10750,
+        "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf",
+        "origin": {
+          "type": "app-git",
+          "commit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+          "path": "LICENSE"
+        }
+      },
+      {
+        "package": "timers",
+        "path": "licenses/raycast-extensions-MIT.txt",
+        "size": 1064,
+        "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+        "origin": {
+          "type": "app-git",
+          "commit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+          "path": "licenses/raycast-extensions-MIT.txt"
+        }
+      },
+      {
+        "package": "timers",
+        "path": "manifest.v2.json",
+        "size": 12235,
+        "sha256": "37208ebe958e050efed523d06bf1c731e6e713e3cc13d608e8ae129c2b259189",
+        "origin": {
+          "type": "catalog-selection",
+          "path": "src-tauri/src/native_core/extensions/v2_catalog.json",
+          "commit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+          "catalog_sha256": "a9f82ddd782dc56b3ed43b9d4d51651ce10a51a368a7befc942f200b2601e955"
+        },
+        "note": "Selected unmodified JSON object; serialization only. Runtime/verification declarations are not validation."
+      },
+      {
+        "package": "timers",
+        "path": "provenance/installed-package.json",
+        "size": 13495,
+        "sha256": "90e3470b9bf665c3ce25bc087c161f9b981b78b697d420976e93a13b9a19bb6e",
+        "origin": {
+          "type": "local-read-only",
+          "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/package.json"
+        },
+        "note": "Original public package metadata only; no preferences/storage/cache copied."
+      },
+      {
+        "package": "timers",
+        "path": "assets/alarmClock.wav",
+        "size": 447564,
+        "sha256": "b682e661291e5f55c457f87a864a058377ec5e284af94da14890ebd59ebadc1c",
+        "origin": {
+          "type": "local-read-only",
+          "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/assets/alarmClock.wav"
+        },
+        "redistribution_review": "Mixkit audio terms; not MIT-only"
+      },
+      {
+        "package": "timers",
+        "path": "assets/command-icon.png",
+        "size": 165279,
+        "sha256": "d0f4ac70195cafc81498f6634f1f257e76cb606119bd00a1dcc3aafb4ddf141c",
+        "origin": {
+          "type": "local-read-only",
+          "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/assets/command-icon.png"
+        },
+        "redistribution_review": "Upstream metadata declares MIT; original branding retained, no trademark grant inferred."
+      },
+      {
+        "package": "timers",
+        "path": "assets/dismemberedWoodpecker.wav",
+        "size": 381890,
+        "sha256": "eb072012e3d0d77d7a3181a8fc066435751180763a56649e286b1d7a9024930d",
+        "origin": {
+          "type": "local-read-only",
+          "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/assets/dismemberedWoodpecker.wav"
+        },
+        "redistribution_review": "Mixkit audio terms; not MIT-only"
+      },
+      {
+        "package": "timers",
+        "path": "assets/fluteRiff.wav",
+        "size": 511556,
+        "sha256": "d7ee78a6c8f64f7d14837043757260118bce5271cd3fa490769931df99aabcee",
+        "origin": {
+          "type": "local-read-only",
+          "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/assets/fluteRiff.wav"
+        },
+        "redistribution_review": "Mixkit audio terms; not MIT-only"
+      },
+      {
+        "package": "timers",
+        "path": "assets/levelUp.wav",
+        "size": 356640,
+        "sha256": "700f049e2df87921564abf7920f331f27a33a578c5d0322148d9f800cb3f616f",
+        "origin": {
+          "type": "local-read-only",
+          "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/assets/levelUp.wav"
+        },
+        "redistribution_review": "Mixkit audio terms; not MIT-only"
+      },
+      {
+        "package": "timers",
+        "path": "assets/pianoChime.wav",
+        "size": 222404,
+        "sha256": "55fe06711d8653dcc5bec2effdc0abf0834b492345a6b21f9bdafe20f569bc55",
+        "origin": {
+          "type": "local-read-only",
+          "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/assets/pianoChime.wav"
+        },
+        "redistribution_review": "Mixkit audio terms; not MIT-only"
+      },
+      {
+        "package": "timers",
+        "path": "assets/terminator.wav",
+        "size": 293064,
+        "sha256": "5bfc539686eea7cf48b9a8dfacfe143fe040b9de5b10b211ec24ea9a98ce5754",
+        "origin": {
+          "type": "local-read-only",
+          "path": "/Users/almat/Library/Application Support/com.tezbar.app/extensions/timers/assets/terminator.wav"
+        },
+        "redistribution_review": "Mixkit audio terms; not MIT-only"
+      },
+      {
+        "package": "timers",
+        "path": "resources/native-timers/README.md",
+        "size": 539,
+        "sha256": "5e65671db2d7e22b9f18803d946235457cae1b0102b49bac7a8be8b07cd3bdb8",
+        "origin": {
+          "type": "app-git",
+          "commit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+          "path": "resources/native-timers/README.md"
+        }
+      },
+      {
+        "package": "timers",
+        "path": "resources/native-timers/alarmClock.wav",
+        "size": 447564,
+        "sha256": "b682e661291e5f55c457f87a864a058377ec5e284af94da14890ebd59ebadc1c",
+        "origin": {
+          "type": "app-git",
+          "commit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+          "path": "resources/native-timers/alarmClock.wav"
+        }
+      },
+      {
+        "package": "timers",
+        "path": "resources/native-timers/dismemberedWoodpecker.wav",
+        "size": 381890,
+        "sha256": "eb072012e3d0d77d7a3181a8fc066435751180763a56649e286b1d7a9024930d",
+        "origin": {
+          "type": "app-git",
+          "commit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+          "path": "resources/native-timers/dismemberedWoodpecker.wav"
+        }
+      },
+      {
+        "package": "timers",
+        "path": "resources/native-timers/fluteRiff.wav",
+        "size": 511556,
+        "sha256": "d7ee78a6c8f64f7d14837043757260118bce5271cd3fa490769931df99aabcee",
+        "origin": {
+          "type": "app-git",
+          "commit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+          "path": "resources/native-timers/fluteRiff.wav"
+        }
+      },
+      {
+        "package": "timers",
+        "path": "resources/native-timers/levelUp.wav",
+        "size": 356640,
+        "sha256": "700f049e2df87921564abf7920f331f27a33a578c5d0322148d9f800cb3f616f",
+        "origin": {
+          "type": "app-git",
+          "commit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+          "path": "resources/native-timers/levelUp.wav"
+        }
+      },
+      {
+        "package": "timers",
+        "path": "resources/native-timers/pianoChime.wav",
+        "size": 222404,
+        "sha256": "55fe06711d8653dcc5bec2effdc0abf0834b492345a6b21f9bdafe20f569bc55",
+        "origin": {
+          "type": "app-git",
+          "commit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+          "path": "resources/native-timers/pianoChime.wav"
+        }
+      },
+      {
+        "package": "timers",
+        "path": "resources/native-timers/terminator.wav",
+        "size": 293064,
+        "sha256": "5bfc539686eea7cf48b9a8dfacfe143fe040b9de5b10b211ec24ea9a98ce5754",
+        "origin": {
+          "type": "app-git",
+          "commit": "fe71ca87f21ac4ff31505010c228f8abda0f2a89",
+          "path": "resources/native-timers/terminator.wav"
+        }
+      },
+      {
+        "package": "timers",
+        "path": "provenance/upstream-directory.json",
+        "size": 13049,
+        "sha256": "f037b81691f0ef526cffe27da3853870442e1cb7a41b7a402bf00399636602b8",
+        "origin": {
+          "type": "github-api",
+          "repository": "raycast/extensions",
+          "commit": "97ee2594a03a94fa439c26864d85ad9a96dc9fc9",
+          "path": "extensions/timers"
+        }
+      },
+      {
+        "package": "timers",
+        "path": "provenance/current-upstream/README.md",
+        "size": 3366,
+        "sha256": "6ee6e63c410bf8298ae2bd4c04e7f1e54239b9b6f7aa2ee47de23be1ff9a8737",
+        "origin": {
+          "type": "https",
+          "url": "https://raw.githubusercontent.com/raycast/extensions/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/timers/README.md"
+        }
+      },
+      {
+        "package": "timers",
+        "path": "provenance/current-upstream/package.json",
+        "size": 13495,
+        "sha256": "90e3470b9bf665c3ce25bc087c161f9b981b78b697d420976e93a13b9a19bb6e",
+        "origin": {
+          "type": "https",
+          "url": "https://raw.githubusercontent.com/raycast/extensions/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/extensions/timers/package.json"
+        }
+      },
+      {
+        "package": "timers",
+        "path": "provenance/current-upstream/repository-LICENSE",
+        "size": 1064,
+        "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+        "origin": {
+          "type": "https",
+          "url": "https://raw.githubusercontent.com/raycast/extensions/97ee2594a03a94fa439c26864d85ad9a96dc9fc9/LICENSE"
+        }
+      },
+      {
+        "package": "timers",
+        "path": "provenance/mixkit/Mixkit-Sound-Effects-Free-License.html",
+        "size": 2221,
+        "sha256": "c156b9d3bd207b3797c6b870dbeed234e06ce945b34d4deca0f13ed282b53546",
+        "origin": {
+          "type": "https",
+          "url": "https://mixkit.co/license/modal/sfxFree"
+        }
+      },
+      {
+        "package": "timers",
+        "path": "provenance/mixkit/Mixkit-Terms.html",
+        "size": 80229,
+        "sha256": "8e6978968b410a13f5b3ff16308757db20e82895fff93b43cef06d98ca9e2e08",
+        "origin": {
+          "type": "https",
+          "url": "https://mixkit.co/terms/"
+        }
+      }
+    ]
+  }
+}
