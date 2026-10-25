@@ -1,0 +1,18 @@
+Tezbar standalone timers Rust extension
+
+Extracted and adapted from Tezbar, baseline fe71ca87f21ac4ff31505010c228f8abda0f2a89.
+App-derived Rust and helper source is Apache-2.0: see LICENSE.
+Behavior and original artwork derive from the installed Raycast extension.
+Raycast extension source is MIT: see licenses/raycast-extensions-MIT.txt.
+Original author and source provenance: SOURCE.json and extension.json.
+Installed bundle revision is unknown; current upstream metadata in provenance
+must not be represented as the installed revision.
+
+Original installed command icon is retained without a new ownership claim.
+The six upstream Mixkit recordings are NOT included. Their source-file/tool
+redistribution restrictions do not establish permission to publish them here.
+No MIT license claim is made for those recordings. The six files shipped here
+are new synthesized triangle-wave melodies, generated from integer arithmetic
+by scripts/generate_tones.py, licensed under Apache-2.0 with this port.
+Historic filenames are compatibility preference identifiers only. These are
+new sounds, audibly different from the old recordings; no recording was sampled.
